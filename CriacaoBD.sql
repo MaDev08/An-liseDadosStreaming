@@ -15,7 +15,7 @@ CREATE TABLE filmes (
     ano_lancamento INT,
     genero VARCHAR(50),
     duracao_minutos INT,
-    avaliacao DECIMAL(3,1), -- média de avaliação, ex: 8.7
+    avaliacao DECIMAL(3,1), 
     data_criacao TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
