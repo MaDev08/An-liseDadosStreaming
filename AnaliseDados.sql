@@ -54,5 +54,5 @@ CREATE PROCEDURE ObterFaturamento
 AS 
 BEGIN 
 	SELECT SUM(preco) AS faturamento_total
-    FROM alugueis;
+	FROM alugueis;
 END;
