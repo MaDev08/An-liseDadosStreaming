@@ -48,3 +48,11 @@ ORDER BY avaliacao desc;
 -- SUBQUERY:
 SELECT * FROM alugueis
 WHERE preco >= (SELECT ROUND(AVG(preco),2) from alugueis);
+
+-- Procedure: 
+CREATE PROCEDURE ObterFaturamento
+AS 
+BEGIN 
+	SELECT SUM(preco) AS faturamento_total
+    FROM alugueis;
+END;
