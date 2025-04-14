@@ -1,5 +1,5 @@
 CREATE DATABASE FilmesStreaming;
-USE FilmesStreaming; 
+-- USE FilmesStreaming; 
 
 CREATE TABLE clientes (
     id_cliente INT PRIMARY KEY AUTO_INCREMENT,
